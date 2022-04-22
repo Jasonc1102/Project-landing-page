@@ -1,3 +1,4 @@
+
 *{
     margin: 0;
     padding: 0;
@@ -106,7 +107,7 @@ section p{
      
 }
 .top-img{
-    background-image: url(arcane.jpg);
+    background-image: url(images/arcane.jpg);
     position: absolute;
     top: 0;
     left: 0;
@@ -160,4 +161,26 @@ section p{
 .top-b a.top-btn{
     padding: 15px 40px;
 }
+}
+.Scrolling{
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    gap: 5px;
+    
+    
+      
+}
+.card{
+    flex: 0 0 auto;
+    
+
+    
+}
+.img{
+    width: 100px;
+    height: 100px;
+}
+#section2-header{
+    margin-bottom: 50px;
 }
